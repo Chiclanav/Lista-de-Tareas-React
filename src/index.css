@@ -1,0 +1,58 @@
+body{
+  background-color: azure;
+}
+
+#contenedor{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 20px;
+  margin-top: 75px;
+}
+
+#contenedorTarea{
+  display: flex;
+  gap: 20px;
+}
+
+#filtro{
+  background-color: aliceblue;
+  margin-top: 10px;
+}
+
+.estilo-filtro{
+  background-color: aliceblue;
+  border: none;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.estilo-filtro:focus{
+  color: brown;
+  font-weight: bold;
+}
+
+.estilo-filtro:hover{
+  color: brown;
+}
+
+
+#estilo-bloque {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 30px;
+}
+
+#checkbox{
+  margin-left: 20px;
+  margin-right: 20px;
+}
