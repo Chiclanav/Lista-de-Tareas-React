@@ -7,6 +7,7 @@ function App(){
 return (
       <div id="contenedor">
         <Titulo />
+        <Titulo />
         <Padre />
       </div>
   );
